@@ -7,4 +7,4 @@ def hello():
     return render_template('index.html', title='Docker Python', name='James')
 
 if __name__ == "__main__":
-    app.run()
+    app.run(host="0.0.0.0")
